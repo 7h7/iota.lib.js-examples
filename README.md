@@ -6,6 +6,8 @@ Install the lib in Node.js with `npm i iota.lib.js`
 Start with `first transaction.js`
 
 If you are looking for more information:
+
 https://docs.iota.org/introduction
+
 Iota discord: https://discord.gg/fNGZXvh
  You can find me there under `Homunk#3558`
