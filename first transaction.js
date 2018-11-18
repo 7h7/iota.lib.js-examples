@@ -1,5 +1,5 @@
 //npm i iota.lib.js
-//we need the iota.lib.js
+//we need the iota.lib.js for the api calls
 const IOTA = require('iota.lib.js')
 
 //This determines the node, in this case it is the load balancer of einfach-iota.de
