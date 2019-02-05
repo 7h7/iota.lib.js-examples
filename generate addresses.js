@@ -1,6 +1,6 @@
 //npm i iota.lib.js
 const IOTA = require('iota.lib.js')
-const iota = new IOTA({ provider: 'https://iota.nodes24.com' })
+const iota = new IOTA({ provider: 'https://nutzdoch.einfachiota.de' })
 
 
 var seed="EXAMPLESEEDEXAMPLESEEDEXAMPLESEEDEXAMPLESEEDEXAMPLESEEDEXAMPLESEEDEXAMPLESEED9999" // seed
