@@ -3,7 +3,7 @@
 //If a transaction isn't confirmed after a few minutes, you have to promote or reattach it
 
 const IOTA = require('iota.lib.js')
-const iota = new IOTA({ provider: 'https://iota.nodes24.com' })
+const iota = new IOTA({ provider: 'https://nutzdoch.einfachiota.de' })
 
 var seed    = 'EXAMPLESEEDEXAMPLESEEDEXAMPLESEEDEXAMPLESEEDEXAMPLESEEDEXAMPLESEEDEXAMPLESEED9999'
     address = 'EXAMPLEADDRESSEXAMPLEADDRESSEXAMPLEADDRESSEXAMPLEADDRESSEXAMPLEADDRESSEXAMPLE9999'
