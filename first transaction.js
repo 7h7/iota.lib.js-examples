@@ -3,7 +3,7 @@
 const IOTA = require('iota.lib.js')
 
 //This determines the node, in this case it is the load balancer of einfach-iota.de
-const iota = new IOTA({ provider: 'https://iota.nodes24.com' })
+const iota = new IOTA({ provider: 'https://nutzdoch.einfachiota.de' })
 
 //Checks if the node works and returns data about it
 iota.api.getNodeInfo((error, success) => {
