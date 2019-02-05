@@ -1,8 +1,8 @@
 //npm i iota.lib.js
 const IOTA = require('iota.lib.js')
-const iota = new IOTA({ provider: 'https://iota.nodes24.com' })
+const iota = new IOTA({ provider: 'https://nutzdoch.einfachiota.de' })
 
-var json     = {'website':'https://einfach-iota.de', 'example number': 3}
+var json     = {'website':'https://einfachiota.de', 'example number': 3}
 var seed     = 'EXAMPLESEEDEXAMPLESEEDEXAMPLESEEDEXAMPLESEEDEXAMPLESEEDEXAMPLESEEDEXAMPLESEED9999'
 var message  = iota.utils.toTrytes(JSON.stringify(json))
 var address  = 'EXAMPLEADDRESSEXAMPLEADDRESSEXAMPLEADDRESSEXAMPLEADDRESSEXAMPLEADDRESSEXAMPLE9999'
